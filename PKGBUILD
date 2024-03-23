@@ -1,8 +1,8 @@
 # Maintainer: Hewol <hewol@proton.me>
 pkgname=aeros-calamares-config
 _destname1="/etc"
-pkgver=1.1
-pkgrel=2
+pkgver=1.5
+pkgrel=1
 pkgdesc="Calamares for aerOS"
 arch=('any')
 url="https://github.com/hewol"
