@@ -27,7 +27,7 @@ welcomeStyleCalamares:   false
 # up beyond its natural size? If false, the image does not grow
 # with the window but remains the same size throughout (this
 # may have surprising effects on HiDPI monitors).
-welcomeExpandingLogo:   false
+welcomeExpandingLogo:   true
 
 ### WINDOW CONFIGURATION
 #
@@ -125,7 +125,7 @@ strings:
     shortProductName:    aerOS
     version:             v2
     shortVersion:        v2
-    versionedName:       aerOS Linux Distro v2 "Placeholder"
+    versionedName:       aerOS Linux Distro v2 "Refreshed"
     shortVersionedName:  aerOS v2
     bootloaderEntryName: aerOS
 
@@ -161,7 +161,7 @@ images:
     productIcon:         "squid.png"
     productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
-    # productWelcome:      ""
+    productWelcome:      "hello.png"
 
 # Colors for text and background components.
 #
