@@ -19,8 +19,8 @@ Presentation
 
         Image {
             id: background
-            source: "squid.png"
-            width: 200; height: 200
+            source: "thanks.png"
+            width: 490; height: 200
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }

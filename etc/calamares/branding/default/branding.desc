@@ -125,7 +125,7 @@ strings:
     shortProductName:    aerOS
     version:             v2
     shortVersion:        v2
-    versionedName:       aerOS Linux Distro v2 "Refreshed"
+    versionedName:       aerOS v2 «Refreshed»
     shortVersionedName:  aerOS v2
     bootloaderEntryName: aerOS
 
@@ -158,8 +158,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
+    productIcon:         "aeros.png"
+    productLogo:         "aeros.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "hello.png"
 
