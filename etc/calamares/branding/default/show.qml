@@ -15,8 +15,6 @@ Presentation {
         id: presentation
     
         Slide {
-            id: thankyou
-            color: "transparent"
     
             Image {
                 id: background
