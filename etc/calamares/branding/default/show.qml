@@ -11,29 +11,31 @@
 import QtQuick 2.0;
 import calamares.slideshow 1.0;
 
-Presentation
-{
-    id: presentation
-
-    Slide {
-
-        Image {
-            id: background
-            source: "thanks.png"
-            width: 490; height: 200
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+Presentation {
+        id: presentation
+    
+        Slide {
+            id: thankyou
+            color: "transparent"
+    
+            Image {
+                id: background
+                source: "thanks.png"
+                width: 490
+                height: 200
+                fillMode: Image.PreserveAspectFit
+                anchors.centerIn: parent
+            }
+    
+            Text {
+                anchors.horizontalCenter: background.horizontalCenter
+                anchors.top: background.bottom
+                text: "Thank you for installing aerOS!<br>Please wait..."
+                wrapMode: Text.WordWrap
+                width: parent.width  // Make sure the text width is within the parent's width
+                horizontalAlignment: Text.AlignHCenter
+            }
         }
-        
-        Text {
-            anchors.horizontalCenter: background.horizontalCenter
-            anchors.top: background.bottom
-            text: "Thank you for installing aerOS!<br>Please wait..."
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-        }
-    }
 
 
 
