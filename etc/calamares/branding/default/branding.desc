@@ -177,8 +177,8 @@ images:
 style:
    SidebarBackground:        "#2C2C2C"
    SidebarText:              "#9D9D9D"
-   SidebarTextCurrent:       "#F2FAFF"
-   SidebarBackgroundCurrent: "#0072BB"
+   SidebarTextCurrent:       "#1A3A4D"
+   SidebarBackgroundCurrent: "#E0F7FA"
 
 ### SLIDESHOW
 #
